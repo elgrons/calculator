@@ -27,3 +27,10 @@ function subtract (number3, number4) {
 
   window.alert(multiply(number5, number6));
   
+function divide(number7, number8) {
+  return number7 / number8;
+}
+  const number7= parseInt(prompt("Enter a seventh number"));
+  const number8= parseInt(prompt("Enter a Eighth number"));
+
+  window.alert(divide(number7, number8));
