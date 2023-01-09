@@ -10,7 +10,7 @@ function add(number1, number2) {
   window.alert(add(number1, number2));
 
 function subtract (number3, number4) {
-    return number3 - number4;
+    return number3 - number4(prompt("Your sum is:"));
   }
 
   const number3= parseInt(prompt("Enter a third number:"));
@@ -18,8 +18,8 @@ function subtract (number3, number4) {
 
   window.alert(subtract(number3, number4));
 
-  function multiply(number5, number6) {
-    return number5 * number6;
+function multiply(number5, number6) {
+  return number5 * number6;
   }
 
   const number5= parseInt(prompt("Enter a fifth number:"));
