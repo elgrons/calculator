@@ -1,19 +1,19 @@
 
 // business logic
 function add(number1, number2) {
-    return number1 + number2;
+  return number1 + number2;
 }
 
-function subtract (number3, number4) {
-  return number3 - number4;
+function subtract (number1, number2) {
+  return number1 - number2;
 }
 
-function multiply(number5, number6) {
-  return number5 * number6(prompt("your sum is:"));
+function multiply(number1, number2) {
+  return number1 * number2;
 }
   
-function divide(number7, number8) {
-  return number7 / number8;
+function divide(number1, number2) {
+  return number1 / number2;
 }
   // user interface logic 
   const number1 = parseInt(prompt("Enter a number:"));
@@ -21,13 +21,8 @@ function divide(number7, number8) {
 
   window.alert(add(number1, number2));
 
+  window.alert("Your sum is:" + subtract(number1, number2) + ".");
 
-  
-  window.alert("Your sum is:" + subtract(number3, number4) + ".");
+  window.alert(multiply(number1, number2));
 
-
-  window.alert(multiply(number5, number6));
-
-
-
-  window.alert(divide(number7, number8));
+  window.alert(divide(number1, number2));
